@@ -2,69 +2,92 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Herve Junior Kammegne Tamto | AI & Data Analytics</title>
+    <title>Herve Junior Kammegne Tamto | AI Engineer & Data Analyst</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!-- Navigation -->
+<!-- ================= NAVIGATION ================= -->
 
-    <nav>
+<nav>
 
-        <h2>Herve Kammegne</h2>
+    <h2>Herve J. Kammegne</h2>
 
-        <ul>
+    <ul>
 
-            <li><a href="#about">About</a></li>
+        <li><a href="#about">About</a></li>
 
-            <li><a href="#projects">Projects</a></li>
+        <li><a href="#projects">Projects</a></li>
 
-            <li><a href="#skills">Skills</a></li>
+        <li><a href="#skills">Skills</a></li>
 
-            <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#certifications">Certifications</a></li>
 
-            <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
 
-        </ul>
+    </ul>
 
-    </nav>
+</nav>
 
-    <!-- Hero Section -->
+<!-- ================= HERO ================= -->
 
-    <header>
+<header>
 
-        <h1>Hello, I'm Herve Kammegne 👋</h1>
+    <h1>Hello, I'm</h1>
 
-        <p>Artificial Intelligence & Data Analytics Graduate</p>
+    <h1 class="name">Herve Junior Kammegne Tamto 👋</h1>
 
-        <a href="#projects" class="button">View My Projects</a>
+    <p>
+        Artificial Intelligence & Data Analytics Graduate
+    </p>
 
-    </header>
+    <p>
+        Machine Learning • Deep Learning • Computer Vision • Data Analytics • MLOps
+    </p>
 
-    <!-- About -->
+    <a href="#projects" class="button">
+        View My Projects
+    </a>
 
-    <section id="about">
+</header>
 
-        <h2>About Me</h2>
+<!-- ================= ABOUT ================= -->
 
-        <p>
-            I recently graduated from Red Deer Polytechnic with a Diploma in Artificial Intelligence and Data Analytics.
-            I am a Data Engineering and MLOps professional who specializes in building end-to-end machine learning pipelines. 
-            My background is rooted in the practical application of AI, where I prioritize creating scalable, user-friendly infrastructure  
-            like implementing model tracking and automated workflows—to solve complex engineering challenges. 
-            I bring a design-thinking approach to my work, ensuring that technical solutions are not only robust but also intuitive and actionable for end users.
-        </p>
+<section id="about">
 
-    </section>
+    <h2>About Me</h2>
 
-   <!-- Projects -->
+    <p>
+
+        I recently graduated from Red Deer Polytechnic with a Diploma in Artificial Intelligence and Data Analytics.
+
+        My passion is building end-to-end Artificial Intelligence solutions that transform data into actionable insights.
+
+        I have experience developing machine learning models, computer vision systems, predictive analytics applications,
+        and data pipelines using Python, PyTorch, Scikit-Learn, SQL, and Azure technologies.
+
+        Through academic and personal projects, I have designed intelligent systems ranging from robotic harvesting
+        pipelines to healthcare prediction models and industrial fuel gas forecasting.
+
+        I am currently expanding my expertise in Cloud Computing, MLOps, Business Intelligence, and Generative AI while
+        seeking opportunities as an AI Engineer, Machine Learning Engineer, or Data Analyst.
+
+    </p>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects">
 
@@ -72,63 +95,92 @@
 
     <div class="cards">
 
+        <!-- Strawberry -->
+
         <div class="card">
 
             <h3>🍓 AI Strawberry Harvesting Pipeline</h3>
 
             <p>
-                Developed a complete deep learning pipeline for robotic strawberry harvesting.
-                The system combines YOLOv11 object detection, a three-class U-Net segmentation
-                model, PCA-based stem angle estimation, and robotic gripper alignment prediction.
-                The project demonstrates an end-to-end computer vision workflow for agricultural robotics.
-            </p>
 
-            <p><strong>Technologies:</strong></p>
+                Developed an end-to-end deep learning pipeline for robotic strawberry harvesting using YOLOv11,
+                a three-class U-Net segmentation model, PCA-based stem angle estimation, and robotic gripper alignment.
+
+            </p>
 
             <p>
-                Python • PyTorch • YOLOv11 • U-Net • OpenCV • NumPy • CUDA
+
+                <strong>Technologies</strong><br>
+
+                Python • PyTorch • YOLOv11 • U-Net • OpenCV • CUDA
+
             </p>
 
-            <!-- Add your GitHub link later -->
-            <!-- <a href="YOUR_GITHUB_LINK">GitHub</a> -->
+            <!-- Replace with your GitHub link -->
+
+            <a class="button" href="#" target="_blank">
+
+                GitHub Repository
+
+            </a>
 
         </div>
+
+        <!-- Healthcare -->
 
         <div class="card">
 
             <h3>🏥 Healthcare Risk Prediction System</h3>
 
             <p>
-                Designed and deployed a machine learning application that predicts patient
-                health risks from clinical data. The project includes data preprocessing,
-                model training, evaluation, and an interactive Streamlit web application
-                for real-time predictions.
-            </p>
 
-            <p><strong>Technologies:</strong></p>
+                Developed a machine learning application capable of predicting patient health risks
+                using clinical data with an interactive Streamlit interface.
+
+            </p>
 
             <p>
-                Python • Scikit-Learn • Pandas • Streamlit • Machine Learning
+
+                <strong>Technologies</strong><br>
+
+                Python • Scikit-Learn • Pandas • Streamlit
+
             </p>
 
+            <a class="button" href="#" target="_blank">
+
+                GitHub Repository
+
+            </a>
+
         </div>
+
+        <!-- Fuel -->
 
         <div class="card">
 
             <h3>⛽ Fuel Gas Consumption Prediction</h3>
 
             <p>
-                Built a machine learning model to predict industrial fuel gas consumption
-                using historical operational data. The project includes feature engineering,
-                predictive modeling, performance evaluation, and data visualization to
-                support energy optimization and decision-making.
-            </p>
 
-            <p><strong>Technologies:</strong></p>
+                Built a predictive machine learning model to estimate industrial fuel gas consumption,
+                helping improve operational efficiency and energy planning through predictive analytics.
+
+            </p>
 
             <p>
-                Python • Pandas • NumPy • Scikit-Learn • Data Visualization
+
+                <strong>Technologies</strong><br>
+
+                Python • Pandas • NumPy • Scikit-Learn
+
             </p>
+
+            <a class="button" href="#" target="_blank">
+
+                GitHub Repository
+
+            </a>
 
         </div>
 
@@ -136,76 +188,126 @@
 
 </section>
 
-            <div class="card">
+<!-- ================= SKILLS ================= -->
 
-                <h3>Delivery Route Optimization</h3>
+<section id="skills">
 
-                <p>Shortest path optimization using graph algorithms.</p>
+    <h2>Technical Skills</h2>
 
-            </div>
+    <div class="skills">
 
-        </div>
+        <span>Python</span>
 
-    </section>
+        <span>SQL</span>
 
-    <!-- Skills -->
+        <span>Power BI</span>
 
-    <section id="skills">
+        <span>Machine Learning</span>
 
-        <h2>Skills</h2>
+        <span>Deep Learning</span>
 
-        <div class="skills">
+        <span>PyTorch</span>
 
-            <span>Python</span>
-            <span>SQL</span>
-            <span>Power BI</span>
-            <span>Machine Learning</span>
-            <span>Azure</span>
-            <span>TensorFlow</span>
-            <span>Scikit-Learn</span>
-            <span>Git</span>
+        <span>TensorFlow</span>
 
-        </div>
+        <span>YOLOv11</span>
 
-    </section>
+        <span>OpenCV</span>
 
-    <!-- Certifications -->
+        <span>Scikit-Learn</span>
 
-    <section id="certifications">
+        <span>Azure</span>
 
-        <h2>Certifications</h2>
+        <span>Git</span>
 
-        <ul>
+        <span>GitHub</span>
 
-            <li>Microsoft PL-300 (Coming Soon)</li>
+        <span>Pandas</span>
 
-            <li>Microsoft DP-100 (Coming Soon)</li>
+        <span>NumPy</span>
 
-            <li>Microsoft AI-102 (Coming Soon)</li>
+        <span>Computer Vision</span>
 
-        </ul>
+        <span>Streamlit</span>
 
-    </section>
+        <span>MLOps</span>
 
-    <!-- Contact -->
+    </div>
 
-    <section id="contact">
+</section>
 
-        <h2>Contact</h2>
+<!-- ================= CERTIFICATIONS ================= -->
 
-        <p>Email: kammegneherve@email.com</p>
+<section id="certifications">
 
-        <p>LinkedIn: https://www.linkedin.com/in/herve-junior-kammegne-tamto-97a7a7355/</p>
+    <h2>Certification Roadmap</h2>
 
-        <p>GitHub: https://github.com/Herve1320</p>
+    <ul>
 
-    </section>
+        <li>🎯 Microsoft PL-300 — Power BI Data Analyst (In Progress)</li>
 
-    <footer>
+        <li>🎯 Microsoft DP-100 — Azure Data Scientist Associate (Planned)</li>
 
-        <p>© 2026 Herve Kammegne</p>
+        <li>🎯 Microsoft AI-102 — Azure AI Engineer Associate (Planned)</li>
 
-    </footer>
+    </ul>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+
+        📧 Email:
+        <a href="mailto:kammegneherve@email.com">
+
+            kammegneherve@email.com
+
+        </a>
+
+    </p>
+
+    <p>
+
+        💼 LinkedIn:
+
+        <a href="https://www.linkedin.com/in/herve-junior-kammegne-tamto-97a7a7355/" target="_blank">
+
+            View My LinkedIn
+
+        </a>
+
+    </p>
+
+    <p>
+
+        💻 GitHub:
+
+        <a href="https://github.com/Herve1320" target="_blank">
+
+            github.com/Herve1320
+
+        </a>
+
+    </p>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 Herve Junior Kammegne Tamto
+
+    </p>
+
+</footer>
 
 </body>
 
